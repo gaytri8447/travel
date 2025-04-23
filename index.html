@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Divine Himalayan Yatra - Sacred Pilgrimages Through the Himalayas</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Book your sacred Char Dham Yatra with Divine Himalayan Yatra. Experience guided pilgrimages to Kedarnath, Badrinath, Gangotri, Yamunotri, and more with seamless arrangements, expert guides, and spiritual care.">
+  <meta name="keywords" content="Char Dham Yatra, Himalayas pilgrimage, Kedarnath, Badrinath, Gangotri, Yamunotri, spiritual travel, India yatra, tour packages">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.2/css/all.min.css">
+  <link rel="icon" href="https://img.freepik.com/free-vector/mountain-travel-logo_1284-37647.jpg?size=100&ext=jpg" type="image/jpeg">
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: 'Montserrat', 'Roboto', sans-serif;
+      color: #23292d;
+      background: #f8fafc;
+    }
+    /* Hide forms' extra scrollbars for PDF export */
+    textarea { resize: none; }
+    ::selection { background: #ea580c22; }
+    .nav-link-active { color: #ea580c !important; }
+    /* Utility for badge shadow */
+    .badge-shadow { box-shadow: 0 2px 6px rgba(0,0,0,0.08);}
+    /* Remove Tailwind preflight's input/textarea bg if printing/exporting */
+    @media print {
+      html, body { background: #fff !important; }
+      .bg-cover { background-size: contain !important; }
+      .fixed, .sticky { position: static !important; }
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <header class="w-full bg-white shadow fixed top-0 left-0 z-30">
+    <nav class="container mx-auto flex items-center justify-between px-3 py-4">
+      <!-- Logo -->
+      <a href="#hero" class="flex items-center space-x-3">
+        <img src="https://img.freepik.com/free-vector/mountain-travel-logo_1284-37647.jpg?size=100&ext=jpg" alt="Divine Himalayan Yatra Logo" class="w-12 h-12 rounded-full border-2 border-blue-800">
+        <span class="font-extrabold text-xl text-blue-800 tracking-wide">Divine Himalayan Yatra</span>
+      </a>
+      <!-- Desktop Nav -->
+      <ul class="hidden md:flex space-x-8 font-semibold text-gray-800 text-lg" aria-label="Navigation Menu">
+        <li><a href="#hero" class="hover:text-orange-600 nav-link">Home</a></li>
+        <li><a href="#packages" class="hover:text-orange-600 nav-link">Tour Packages</a></li>
+        <li><a href="#about" class="hover:text-orange-600 nav-link">About Us</a></li>
+        <li><a href="#contact" class="hover:text-orange-600 nav-link">Contact Us</a></li>
+      </ul>
+      <!-- Mobile Hamburger -->
+      <button id="nav-toggle" class="md:hidden text-2xl text-blue-800 focus:outline-none" aria-label="Open navigation menu">
+        <i class="fas fa-bars"></i>
+      </button>
+    </nav>
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="md:hidden fixed left-0 top-16 right-0 bg-white border-t border-gray-100 shadow-lg hidden z-20">
+      <ul class="flex flex-col px-6 py-4 text-gray-800 font-semibold text-lg space-y-4">
+        <li><a href="#hero" class="hover:text-orange-600 nav-link">Home</a></li>
+        <li><a href="#packages" class="hover:text-orange-600 nav-link">Tour Packages</a></li>
+        <li><a href="#about" class="hover:text-orange-600 nav-link">About Us</a></li>
+        <li><a href="#contact" class="hover:text-orange-600 nav-link">Contact Us</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="relative pt-24 min-h-screen flex items-center justify-center bg-cover bg-center" style="background-image:url('https://hinduismtoday.b-cdn.net/wp-content/uploads/2020/04/f0018-01-e1586124033427.jpg');">
+    <div class="absolute inset-0 bg-gradient-to-b from-blue-900/70 via-blue-900/50 to-white/70 pointer-events-none"></div>
+    <div class="relative container mx-auto text-center px-4 py-20">
+      <h1 class="text-3xl md:text-6xl font-bold text-white drop-shadow-lg mb-5">Experience the Divine Himalayas</h1>
+      <p class="text-xl md:text-2xl text-blue-100 mb-8 max-w-xl mx-auto tracking-wide">Book your sacred Char Dham Yatra with ease</p>
+      <div class="flex flex-col md:flex-row gap-4 justify-center items-center">
+        <a href="#packages" class="inline-block px-8 py-3 rounded-full bg-orange-600 text-white text-lg font-semibold hover:bg-orange-700 transition shadow-lg" aria-label="Explore Packages">Explore Packages</a>
+        <a href="#enquiry" class="inline-block px-8 py-3 rounded-full bg-white text-blue-800 border-2 border-blue-800 text-lg font-semibold hover:bg-blue-800 hover:text-white transition shadow-lg">Enquire Now</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tour Packages Section -->
+  <section id="packages" class="w-full py-16 bg-white">
+    <div class="container mx-auto px-4 max-w-7xl">
+      <h2 class="text-center text-3xl md:text-4xl font-extrabold text-blue-900 mb-3">Our Tour Packages</h2>
+      <p class="text-center text-lg text-gray-600 mb-8">Transformative journeys for seekers of the sacred – customize your Himalayan pilgrimage today</p>
+      <div class="grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
+        <!-- Char Dham Package -->
+        <article class="bg-gray-50 rounded-lg shadow hover:shadow-lg transition border border-gray-100 flex flex-col">
+          <figure class="w-full">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/30/Kedarnath_Temple.jpg" alt="Char Dham - Kedarnath Temple" class="rounded-t-lg w-full h-56 object-cover object-center">
+          </figure>
+          <div class="p-6 flex flex-col flex-grow">
+            <div class="flex justify-between items-center">
+              <h3 class="text-xl font-bold text-blue-800">Char Dham Yatra</h3>
+              <span class="bg-orange-600 text-white text-xs px-3 py-1 rounded-full badge-shadow font-semibold">20% OFF</span>
+            </div>
+            <div class="mt-2 flex justify-between text-sm text-gray-700">
+              <span><i class="fa fa-clock mr-1 text-orange-600"></i> 11N / 12D</span>
+              <span class="text-green-700 font-semibold">from ₹39,999</span>
+            </div>
+            <ul class="mt-4 mb-2 text-gray-700 text-base leading-relaxed space-y-2">
+              <li><i class="fa fa-check-circle text-green-500 mr-1"></i> Yamunotri, Gangotri, Kedarnath, Badrinath Darshan</li>
+              <li><i class="fa fa-check-circle text-green-500 mr-1"></i> Deluxe hotels & vegetarian meals</li>
+              <li><i class="fa fa-check-circle text-green-500 mr-1"></i> All transfers & sightseeing in AC coach</li>
+              <li><i class="fa fa-check-circle text-green-500 mr-1"></i> Certified spiritual guide</li>
+              <li><i class="fa fa-check-circle text-green-500 mr-1"></i> VIP temple darshan & group insurance</li>
+            </ul>
+            <button onclick="scrollToEnquiry('Char Dham Yatra')" class="mt-auto bg-blue-800 text-white px-4 py-2 w-full rounded font-semibold hover:bg-orange-600 transition">Send Enquiry</button>
+          </div>
+        </article>
+        <!-- Do Dham Package -->
+        <article class="bg-gray-50 rounded-lg shadow hover:shadow-lg transition border border-gray-100 flex flex-col">
+          <figure class="w-full">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/f/f9/Badrinath_Temple_%2C_Uttarakhand.jpg" alt="Do Dham - Badrinath Temple" class="rounded-t-lg w-full h-56 object-cover object-center">
+          </figure>
+          <div class="p-6 flex flex-col flex-grow">
+            <div class="flex justify-between items-center">
+              <h3 class="text-xl font-bold text-blue-800">Do Dham Yatra(Kedarnath-Badrinath)</h3>
+              <span class="bg-orange-500 text-white text-xs px-3 py-1 rounded-full badge-shadow font-semibold">15% OFF</span>
+            </div>
+            <div class="mt-2 flex justify-between text-sm text-gray-700">
+              <span><i class="fa fa-clock mr-1 text-orange-600"></i> 6N / 7D</span>
+              <span class="text-green-700 font-semibold">from ₹27,999</span>
+            </div>
+            <ul class="mt-4 mb-2 text-gray-700 text-base leading-relaxed space-y-2">
+              <li><i class="fa fa-check-circle text-green-500 mr-1"></i> Kedarnath & Badrinath Darshan</li>
+              <li><i class="fa fa-check-circle text-green-500 mr-1"></i> Premium hotel stays</li>
+              <li><i class="fa fa-check-circle text-green-500 mr-1"></i> Meals & on-tour assistance</li>
+              <li><i class="fa fa-check-circle text-green-500 mr-1"></i> Helicopter option available</li>
+            </ul>
+            <button onclick="scrollToEnquiry('Do Dham Yatra')" class="mt-auto bg-blue-800 text-white px-4 py-2 w-full rounded font-semibold hover:bg-orange-600 transition">Send Enquiry</button>
+          </div>
+        </article>
+        <!-- Ek Dham Package -->
+        <article class="bg-gray-50 rounded-lg shadow hover:shadow-lg transition border border-gray-100 flex flex-col">
+          <figure class="w-full">
+            <img src="https://travelanddiscoverindia.com/wp-content/uploads/2024/05/Yamunotri_under-banner-image.jpg" alt="Ek Dham - Yamunotri Temple" class="rounded-t-lg w-full h-56 object-cover object-center">
+          </figure>
+          <div class="p-6 flex flex-col flex-grow">
+            <div class="flex justify-between items-center">
+              <h3 class="text-xl font-bold text-blue-800">Ek Dham Yatra (Yamunotri)</h3>
+              <span class="bg-orange-400 text-white text-xs px-3 py-1 rounded-full badge-shadow font-semibold">10% OFF</span>
+            </div>
+            <div class="mt-2 flex justify-between text-sm text-gray-700">
+              <span><i class="fa fa-clock mr-1 text-orange-600"></i> 3N / 4D</span>
+              <span class="text-green-700 font-semibold">from ₹14,999</span>
+            </div>
+            <ul class="mt-4 mb-2 text-gray-700 text-base leading-relaxed space-y-2">
+              <li><i class="fa fa-check-circle text-green-500 mr-1"></i> Focused Yamunotri Temple visit</li>
+              <li><i class="fa fa-check-circle text-green-500 mr-1"></i> Comfortable stays</li>
+              <li><i class="fa fa-check-circle text-green-500 mr-1"></i> Transfers & guide included</li>
+              <li><i class="fa fa-check-circle text-green-500 mr-1"></i> Custom itinerary available</li>
+            </ul>
+            <button onclick="scrollToEnquiry('Ek Dham Yatra (Yamunotri)')" class="mt-auto bg-blue-800 text-white px-4 py-2 w-full rounded font-semibold hover:bg-orange-600 transition">Send Enquiry</button>
+          </div>
+        </article>
+        <!-- Add more packages as needed -->
+      </div>
+    </div>
+  </section>
+
+  <!-- About Us Section -->
+  <section id="about" class="py-16 bg-gradient-to-t from-slate-100 to-white">
+    <div class="container mx-auto px-4 max-w-3xl text-center">
+      <h2 class="text-3xl font-extrabold text-blue-900 mb-4">About Us</h2>
+      <p class="text-lg text-gray-700 mb-5 leading-relaxed">
+        <span class="font-bold text-orange-600">Divine Himalayan Yatra</span> is a dedicated spiritual travel company with over <span class="font-semibold text-blue-800">18 years of experience</span> in organizing sacred journeys across Uttarakhand. We believe in curating not just tours, but <span class="text-green-700 font-bold">transformative pilgrimages</span> guided by compassion, safety, and devotion. Our team includes local guides well-versed in Himalayan traditions, providing seamless experiences with a deep respect for spirituality and cultural heritage.<br>
+        Every year, hundreds of devotees entrust us with their Char Dham, Do Dham, and single temple yatras, joining a growing family on the path of faith. Walk the ancient trails, meditate by holy rivers, and rediscover yourself.
+      </p>
+      <div class="flex flex-wrap justify-center gap-6 mt-8">
+        <div class="flex flex-col items-center">
+          <span class="font-extrabold text-3xl text-blue-700">18+</span>
+          <span class="text-sm text-gray-600">Years' Expertise</span>
+        </div>
+        <div class="flex flex-col items-center">
+          <span class="font-extrabold text-3xl text-orange-600">3000+</span>
+          <span class="text-sm text-gray-600">Happy Pilgrims Served</span>
+        </div>
+        <div class="flex flex-col items-center">
+          <span class="font-extrabold text-3xl text-green-700">100%</span>
+          <span class="text-sm text-gray-600">Devotion & Care</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Enquiry Form Section -->
+  <section id="enquiry" class="bg-slate-50 py-16">
+    <div class="container mx-auto px-4 max-w-4xl">
+      <h2 class="text-3xl font-extrabold text-blue-900 text-center mb-4">Enquiry Form</h2>
+      <p class="text-center text-gray-700 mb-8">Ready to begin your yatra? Fill the form and our travel expert will get in touch!</p>
+      <form id="enquiry-form" class="bg-white rounded-lg shadow p-6 grid grid-cols-1 md:grid-cols-2 gap-6" autocomplete="off">
+        <div>
+          <label for="name" class="block mb-2 font-semibold text-gray-800">Full Name <span class="text-orange-600">*</span></label>
+          <input id="name" name="name" type="text" required class="w-full border border-gray-300 px-4 py-3 rounded focus:outline-none focus:border-orange-500 bg-slate-50" placeholder="Your name">
+        </div>
+        <div>
+          <label for="email" class="block mb-2 font-semibold text-gray-800">Email <span class="text-orange-600">*</span></label>
+          <input id="email" name="email" type="email" required class="w-full border border-gray-300 px-4 py-3 rounded focus:outline-none focus:border-orange-500 bg-slate-50" placeholder="you@email.com">
+        </div>
+        <div>
+          <label for="phone" class="block mb-2 font-semibold text-gray-800">Phone <span class="text-orange-600">*</span></label>
+          <input id="phone" name="phone" type="tel" required pattern="[0-9+\s-]+" class="w-full border border-gray-300 px-4 py-3 rounded focus:outline-none focus:border-orange-500 bg-slate-50" placeholder="Your number">
+        </div>
+        <div>
+          <label for="package" class="block mb-2 font-semibold text-gray-800">Interested Package</label>
+          <select id="package" name="package" class="w-full border border-gray-300 px-4 py-3 rounded focus:outline-none focus:border-orange-500 bg-slate-50">
+            <option value="">-- Select --</option>
+            <option value="Char Dham Yatra">Char Dham Yatra</option>
+            <option value="Do Dham Yatra">Do Dham Yatra</option>
+            <option value="Ek Dham Yatra (Yamunotri)">Ek Dham Yatra (Yamunotri)</option>
+            <option value="Other">Other / Custom</option>
+          </select>
+        </div>
+        <div>
+          <label for="adults" class="block mb-2 font-semibold text-gray-800">Adults</label>
+          <input id="adults" name="adults" type="number" min="1" value="1" class="w-full border border-gray-300 px-4 py-3 rounded focus:outline-none focus:border-orange-500 bg-slate-50">
+        </div>
+        <div class="md:col-span-2">
+          <label for="message" class="block mb-2 font-semibold text-gray-800">Your Message</label>
+          <textarea id="message" name="message" rows="3" class="w-full border border-gray-300 px-4 py-3 rounded focus:outline-none focus:border-orange-500 bg-slate-50" placeholder="Tell us your travel preferences, group size, or ask questions..."></textarea>
+        </div>
+        <div class="md:col-span-2">
+          <button type="submit" class="bg-orange-600 hover:bg-blue-800 text-white font-bold text-lg py-3 rounded transition w-full">Send Enquiry</button>
+        </div>
+      </form>
+      <div id="enquiry-success" class="hidden text-green-700 text-lg font-semibold mt-8 text-center"><i class="fa fa-check-circle mr-2"></i>Your enquiry has been submitted! We will contact you soon.</div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-16 bg-gradient-to-b from-white to-slate-100">
+    <div class="container mx-auto px-4 max-w-5xl">
+      <h2 class="text-3xl font-extrabold text-blue-900 text-center mb-8">Contact Us</h2>
+      <div class="flex flex-wrap gap-8 justify-center">
+        <div class="w-full md:w-1/3 flex flex-col items-center bg-white rounded-lg shadow p-8 mb-6">
+          <i class="fa fa-map-marker-alt text-orange-600 text-2xl mb-3"></i>
+          <span class="font-bold text-lg">Office Address</span>
+          <span class="text-gray-700 text-center">123 Pilgrim Plaza, Haridwar, Uttarakhand, India - 249401</span>
+        </div>
+        <div class="w-full md:w-1/3 flex flex-col items-center bg-white rounded-lg shadow p-8 mb-6">
+          <i class="fa fa-envelope text-orange-600 text-2xl mb-3"></i>
+          <span class="font-bold text-lg">Email</span>
+          <a href="mailto:info@divinehimalayanyatra.com" class="text-blue-800 hover:underline">info@divinehimalayanyatra.com</a>
+          <a href="mailto:bookings@divinehimalayanyatra.com" class="text-blue-800 hover:underline">bookings@divinehimalayanyatra.com</a>
+        </div>
+        <div class="w-full md:w-1/3 flex flex-col items-center bg-white rounded-lg shadow p-8 mb-6">
+          <i class="fa fa-phone text-orange-600 text-2xl mb-3"></i>
+          <span class="font-bold text-lg">Phone / WhatsApp</span>
+          <a href="tel:+917070546530" class="text-blue-800 hover:underline" aria-label="Call +91 7070546530">+91 7070546530</a>
+          <a href="tel:+919262378333" class="text-blue-800 hover:underline" aria-label="Call +91 9262378333">+91 9262378333</a>
+          <a href="https://wa.me/919262378333" class="flex items-center justify-center text-green-600 font-semibold mt-2 hover:underline" target="_blank" rel="noopener" aria-label="Chat on WhatsApp"><i class="fab fa-whatsapp mr-1"></i> WhatsApp Now</a>
+        </div>
+      </div>
+      <!-- Simple map placeholder, no iframe scrollbars for PDF export -->
+      <div class="w-full flex justify-center mt-10">
+        <img src="https://api.mapbox.com/styles/v1/mapbox/streets-v11/static/78.1642,29.9457,11,0/480x180?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4Nm8yZTA2emYycXBndHR6bW14bGQifQ.GW0mcWwDHrTF8ij44HSyqw" alt="Haridwar, Uttarakhand office map" class="rounded border shadow-lg w-full max-w-2xl">
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-blue-900 text-white pt-10 pb-4">
+    <div class="container mx-auto px-4 max-w-7xl flex flex-col md:flex-row md:justify-between md:items-start space-y-8 md:space-y-0">
+      <div class="md:w-1/3">
+        <div class="flex items-center mb-3">
+          <img src="https://img.freepik.com/free-vector/mountain-travel-logo_1284-37647.jpg?size=100&ext=jpg" alt="Divine Himalayan Yatra Logo" class="w-10 h-10 mr-3 rounded-full border-2 border-white">
+          <span class="font-bold text-xl tracking-wide">Divine Himalayan Yatra</span>
+        </div>
+        <p class="text-gray-200 text-sm">Your trusted partner for sacred Himalayan pilgrimages. Experience the Char Dham Yatra and more, guided by devotion and expertise.</p>
+        <div class="flex space-x-3 mt-4">
+          <a aria-label="Facebook" href="#" class="hover:text-orange-400"><i class="fab fa-facebook-f text-xl"></i></a>
+          <a aria-label="Instagram" href="#" class="hover:text-orange-400"><i class="fab fa-instagram text-xl"></i></a>
+        </div>
+      </div>
+      <div>
+        <span class="font-bold text-white">Quick Links</span>
+        <ul class="mt-2 space-y-2 text-gray-200 text-sm">
+          <li><a href="#hero" class="hover:text-orange-300">Home</a></li>
+          <li><a href="#packages" class="hover:text-orange-300">Tour Packages</a></li>
+          <li><a href="#about" class="hover:text-orange-300">About Us</a></li>
+          <li><a href="#contact" class="hover:text-orange-300">Contact</a></li>
+          <li><a href="#" class="hover:text-orange-300">Privacy Policy</a></li>
+          <li><a href="#" class="hover:text-orange-300">Terms & Conditions</a></li>
+        </ul>
+      </div>
+      <div>
+        <span class="font-bold text-white">Top Packages</span>
+        <ul class="mt-2 space-y-2 text-gray-200 text-sm">
+          <li><a href="#packages" class="hover:text-orange-300">Char Dham Yatra</a></li>
+          <li><a href="#packages" class="hover:text-orange-300">Do Dham Yatra</a></li>
+          <li><a href="#packages" class="hover:text-orange-300">Ek Dham Yatra</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="text-center text-gray-300 text-sm mt-8 border-t border-blue-800 pt-4">
+      Copyright &copy; 2025 Divine Himalayan Yatra. All Rights Reserved.
+    </div>
+  </footer>
+
+  <!-- JS for navigation and enquiry form -->
+  <script>
+    // Mobile nav toggle
+    const navToggle = document.getElementById('nav-toggle');
+    const mobileMenu = document.getElementById('mobile-menu');
+    navToggle.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+      navToggle.querySelector('i').classList.toggle('fa-bars');
+      navToggle.querySelector('i').classList.toggle('fa-times');
+    });
+    document.addEventListener('click', function(evt) {
+      const path = evt.composedPath ? evt.composedPath() : (evt.path || []);
+      if (!mobileMenu.contains(evt.target) && !navToggle.contains(evt.target)) {
+        mobileMenu.classList.add('hidden');
+        navToggle.querySelector('i').classList.add('fa-bars');
+        navToggle.querySelector('i').classList.remove('fa-times');
+      }
+    });
+
+    // Active nav link on scroll
+    const links = document.querySelectorAll('.nav-link');
+    const sections = ['hero', 'packages', 'about', 'contact'].map(id => document.getElementById(id));
+    window.addEventListener('scroll', () => {
+      let currentSection = 'hero';
+      const scrollPos = window.scrollY + 90;
+      for (let section of sections) {
+        if(section && scrollPos >= section.offsetTop){
+          currentSection = section.id;
+        }
+      }
+      links.forEach(link => link.classList.remove('nav-link-active'));
+      links.forEach(link => {
+        if (link.getAttribute('href').slice(1) === currentSection) {
+          link.classList.add('nav-link-active');
+        }
+      });
+    });
+
+    // Smooth scroll for nav
+    document.querySelectorAll('a.nav-link').forEach(link => {
+      link.addEventListener('click', function(e){
+        if(this.hash){
+          e.preventDefault();
+          const target = document.querySelector(this.hash);
+          if(target){
+            const top = target.offsetTop - 60;
+            window.scrollTo({top: top, behavior: 'smooth'});
+            if(!mobileMenu.classList.contains('hidden')){
+              mobileMenu.classList.add('hidden');
+              navToggle.querySelector('i').classList.add('fa-bars');
+              navToggle.querySelector('i').classList.remove('fa-times');
+            }
+          }
+        }
+      });
+    });
+
+    // Scroll to enquiry form and pre-select package
+    window.scrollToEnquiry = function(packageName) {
+      document.getElementById('package').value = packageName;
+      document.getElementById('enquiry').scrollIntoView({behavior:'smooth'});
+    };
+
+    // Enquiry form fake submit (for demo)
+    document.getElementById('enquiry-form').addEventListener('submit', function(e){
+      e.preventDefault();
+      document.getElementById('enquiry-success').classList.remove('hidden');
+      setTimeout(()=>{ document.getElementById('enquiry-success').classList.add('hidden'); }, 8000);
+      this.reset();
+    });
+  </script>
+</body>
+</html>
